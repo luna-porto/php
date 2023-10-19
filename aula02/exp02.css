@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ h1{
+    background-color: lightsalmon;
+ }
+
+.stilo{
+    background-color: lightpink;
+}
+
+.conteudo{
+    background-color: rosybrown;
+    height: 30px;
+}
+
+.conteudo p{
+    background-color: rgb(161, 112, 93);
+}
+
+.conteudo #título{
+    font-size: 30px;
+}
+
+p{
+    background-color: pink;
+}
+
+.conteudo .novoconteudo{
+    background-color: rgb(177, 19, 106);
+}
+p{
+    background-color: palevioletred;
+}
