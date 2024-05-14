@@ -28,10 +28,29 @@
  <h2> exemplo com foreach </h2>
  <pre>
     <?php
-    $var = ["Hubert" => 20, "Luna" => 5, "Ryan" => 6];
+    $var = ["Hubert" => 20, "Luna" => 5, "Ryan" => 6.1, "Yasmin" => 4.1, "Leo" => 11];
     foreach($var as $chave => $valor ){
+        if($valor>=6){
+          echo "alunos aprovados <br>";
         echo "o Aluno: $chave <br>";
         echo "obteve a nota: $valor <br>";
+        } 
+        else if($valor<6 && $valor > 4){
+            echo "alunos recuperaca";
+            echo "o aluno: $chave <br>";
+            echo "obteve a nota: $valor <br>";
+        } 
+        else if ($valor >10 || $valor<0){
+            echo "A nota é invalida <br>;";
+            echo "nota invalida: $chave <br>";
+            echo "obteve a nota: $valor <br>";
+        }
+        else if($valor<4){
+            echo "alunos reprovados <br>";
+            echo "o aluno: $chave <br>";
+            echo "obteve a nota: $valor <br>";
+        }
+        
     }
     ?>
  </pre>
