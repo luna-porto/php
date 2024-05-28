@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
@@ -122,6 +122,31 @@ $var['cidade'] = 'pindai';
 <pre>
 <?php echo print_r($var) ?>;
 </pre>
+
+<?php
+echo '<h2> 3 - array Multidimensional 3</h2>';
+
+$array = [
+    'alunos' => [
+    [
+    'id' => 1,
+    'nome' => 'fabio',
+    'idade' => 20 
+    ],
+    ['id' => 2,
+    'nome' => 'Luna',
+    'idade' => 32
+    ],
+    ['id' => 3,
+    'nome' => 'Ryan',
+    'idade' => 40
+    ]
+    ]
+];
+($array ['aluno'][01]['nome'] = 'ryan');
+print_r($array['nome'] = "Luna");
+
+?>
 
 
 </body>
